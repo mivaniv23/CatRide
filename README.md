@@ -41,4 +41,3 @@ Group Formation
 * **Project Lead & Developer**: Markiian Ivaniv
   * Role: UI/UX design, mobile app development (React Native), database setup (Appwrite), feature implementation
   * Skills: Java, Kotlin, React Native, Firebase/Appwrite, UX design, debugging, problem-solving
-     
