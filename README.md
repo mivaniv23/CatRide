@@ -5,27 +5,35 @@ CatRide is a free ride-sharing mobile application designed exclusively for stude
 
 The app aims to improve student mobility, build a sense of community, and add a fun twist with quests and rewards that motivate student participation.
 
- Key Features
- ============
+Key Features
+============
 
- *   **Authentication System**
-    * Secure login and registration with role-based UI (student or driver).
- *   **Ride Request**
-    * Students can request rides and view ride status in real time.
- *   **Driver Mode**
-    * Button to switch to the driver interface for accepting and managing rides.
- *   **Real-Time Ride Tracking**
-    * Live map view for tracking the current ride's progress.
- *   **Quests & Rewards System**
-    * Daily and weekly quests that allow users to earn points and unlock rewards.
- *   **Ride History**
-    * A log of all past rides with key details like driver name and timestamps.
- *   **User Ratings**
-    * Riders can rate drivers to promote safety and accountability.
- *   **Push Notifications**
-    * Real-time updates for ride status, quest progress, and reward milestones.
- *   **Ride Cancellation**
-    * Simple cancellation feature with confirmation step.
+- **Authentication System**  
+  Secure login and registration with role-based UI (student or driver).
+
+- **Ride Request**  
+  Students can request rides and view ride status in real time.
+
+- **Driver Mode**  
+  Button to switch to the driver interface for accepting and managing rides.
+
+- **Real-Time Ride Tracking**  
+  Live map view for tracking the current ride's progress.
+
+- **Quests & Rewards System**  
+  Daily and weekly quests that allow users to earn points and unlock rewards.
+
+- **Ride History**  
+  A log of all past rides with key details like driver name and timestamps.
+
+- **User Ratings**  
+  Riders can rate drivers to promote safety and accountability.
+
+- **Push Notifications**  
+  Real-time updates for ride status, quest progress, and reward milestones.
+
+- **Ride Cancellation**  
+  Simple cancellation feature with confirmation step.
 
 Group Formation
 ===============
