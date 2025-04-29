@@ -1,43 +1,44 @@
-App Concept: CatRide
-====================
+# 🚗 CatRide
 
-CatRide is a free ride-sharing mobile application designed exclusively for students at Catawba College. Inspired by services like Uber and Lyft, CatRide allows students to either request rides or become drivers, creating a peer-to-peer transportation system that is convenient, safe, and completely free.
+**Your Free Student Ride Around Salisbury**  
+CatRide is a mobile ride-sharing app designed exclusively for Catawba College students. Inspired by a campus sustainability initiative, the app allows students to request free rides around the Salisbury area, with other students serving as drivers.
 
-The app aims to improve student mobility, build a sense of community, and add a fun twist with quests and rewards that motivate student participation.
+---
 
-Key Features
-============
+## 📱 Features
 
-- **Authentication System**  
-  Secure login and registration with role-based UI (student or driver).
+- 🔐 **Authentication** – Secure login and signup with Appwrite
+- 🏆 **Rewards System** – Redeem earned points for perks
+- 🎨 **Custom UI** – Clean, student-friendly design with Catawba branding
+- 🎯 **Future: Quests System** – Daily and weekly tasks to earn points
+- 🔄 **Future: Driver Mode Toggle** – Switch interface when acting as a driver
+- 📅 **Future: Ride Booking System** – Schedule or request rides in-app
+- 🌗 **Future: Dark/Light Theme Toggle**
+- 📸 **Future: Avatar Upload** – Upload and change profile pictures
+- 📧 **Future: Email Verification**
 
-- **Ride Request**  
-  Students can request rides and view ride status in real time.
+---
 
-- **Driver Mode**  
-  Button to switch to the driver interface for accepting and managing rides.
+## 💡 Inspiration
 
-- **Real-Time Ride Tracking**  
-  Live map view for tracking the current ride's progress.
+The project was inspired by a conversation with Dr. Lee Ball, Vice President of Sustainability at Catawba College. The vision is to use electric vehicles (EVs) to reduce carbon emissions, offer flexible student jobs, and increase accessibility for students without cars.
 
-- **Quests & Rewards System**  
-  Daily and weekly quests that allow users to earn points and unlock rewards.
+---
 
-- **Ride History**  
-  A log of all past rides with key details like driver name and timestamps.
+## ⚙️ Tech Stack
 
-- **User Ratings**  
-  Riders can rate drivers to promote safety and accountability.
+- **React Native** – Cross-platform mobile app development
+- **Expo** – Development and testing environment
+- **JavaScript** – Core programming language
+- **Appwrite** – Backend for authentication and database
 
-- **Push Notifications**  
-  Real-time updates for ride status, quest progress, and reward milestones.
+---
 
-- **Ride Cancellation**  
-  Simple cancellation feature with confirmation step.
+## 🧪 Testing & Debugging
 
-Group Formation
-===============
+- Manual testing of login/signup and UI flows
+- Initial limitation of 10 requests/hour on cloud Appwrite slowed testing
+- Resolved by self-hosting Appwrite locally for full functionality
+- Bugs fixed included session handling, request limits, and UI refreshes
 
-* **Project Lead & Developer**: Markiian Ivaniv
-  * Role: UI/UX design, mobile app development (React Native), database setup (Appwrite), feature implementation
-  * Skills: Java, Kotlin, React Native, Firebase/Appwrite, UX design, debugging, problem-solving
+---
